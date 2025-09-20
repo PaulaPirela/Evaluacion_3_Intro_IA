@@ -1,10 +1,8 @@
 # Evaluacion_3_Intro_IA
 
+## Automatización de Pedidos con IA 🤖🍔
 
-¡Hola! Con mucho gusto te ayudo a generar el README para tu proyecto de automatización de pedidos de comida rápida. Aquí tienes un borrador que puedes usar y adaptar.
-
-Automatización de Pedidos con IA 🤖🍔
-Planteamiento del Problema
+Planteamiento del Problema:
 El proceso de toma de pedidos en un restaurante de comida rápida a menudo es manual y propenso a errores. Esto puede llevar a pedidos incorrectos, demoras en el servicio y dificultades en el seguimiento y la gestión de la información. El objetivo de esta automatización es optimizar el proceso de pedido mediante la implementación de un sistema que:
 
 Reciba los pedidos de los clientes a través de un chat.
