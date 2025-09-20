@@ -15,10 +15,11 @@ Registre automáticamente los detalles del pedido en un archivo Excel para el in
 
 Esta solución busca reducir la carga de trabajo manual, minimizar los errores y mejorar la eficiencia operativa y la experiencia del cliente.
 
-Justificación de la Tecnología
+Justificación de la Tecnología:
+
 Para resolver este problema, la herramienta n8n es la elección ideal en comparación con una solución puramente de código. La ventaja principal de n8n es que, como plataforma de automatización de código bajo (low-code), nos permite construir flujos de trabajo complejos de manera visual y mucho más rápida.
 
-Integraciones Nativas: n8n viene con nodos pre-construidos para servicios populares como Gmail y Microsoft Excel. Esto elimina la necesidad de escribir y mantener APIs y SDKs desde cero. Una solución de código requeriría que un desarrollador configure manualmente la autenticación (OAuth 2.0) y las solicitudes HTTP para cada servicio, un proceso que consume mucho tiempo.
+Integraciones Nativas: N8N viene con nodos pre-construidos para servicios populares como Gmail y Microsoft Excel. Esto elimina la necesidad de escribir y mantener APIs y SDKs desde cero. Una solución de código requeriría que un desarrollador configure manualmente la autenticación (OAuth 2.0) y las solicitudes HTTP para cada servicio, un proceso que consume mucho tiempo.
 
 Facilidad de Mantenimiento: El flujo de trabajo visual de n8n es fácil de entender y de modificar.  Si en el futuro es necesario cambiar la lógica de negocio, como añadir un servicio de SMS o integrar otro agente de IA, solo hay que añadir o modificar un nodo. En una solución de código, cada cambio podría requerir una reescritura significativa de la lógica de conexión y procesamiento de datos.
 
@@ -26,8 +27,10 @@ Reducción del Tiempo de Desarrollo: El desarrollo de un sistema similar desde c
 
 Menor Dependencia Técnica: Al ser una herramienta visual, cualquier persona con un conocimiento básico de la plataforma puede entender y mantener el flujo. Una solución de código requiere un desarrollador especializado que entienda todo el código fuente, aumentando la dependencia del talento técnico.
 
-Guía de Uso
-Funcionamiento del Flujo
+Guía de Uso:
+
+Funcionamiento del Flujo:
+
 Este flujo de n8n está diseñado para ser iniciado por un WebHook al que el usuario envía la información del pedido a través del chat. El proceso es el siguiente:
 
 El flujo comienza con un nodo de WebHook que recibe la solicitud de pedido.
@@ -40,7 +43,7 @@ Rama 1: Un nodo de Gmail utiliza la información para componer y enviar un corre
 
 Rama 2: Un nodo de Microsoft Excel añade una nueva fila con los datos del pedido a una hoja de cálculo designada, facilitando el seguimiento para el restaurante.
 
-Instrucciones de Configuración
+Instrucciones de Configuración:
 Para poner en marcha este flujo, necesitas configurar las siguientes credenciales:
 
 Credenciales de Groq:
